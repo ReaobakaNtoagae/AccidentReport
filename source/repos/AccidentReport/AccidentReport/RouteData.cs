@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace AccidentReport
+{
+    public class RouteData
+    {
+        public string RouteName { get; set; }
+        public int Crashes { get; set; }
+
+        public int Fatalities { get; set; }
+    }
+}
